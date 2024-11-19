@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.18 FATAL_ERROR)
+project(Digit-Recognition-MNIST)
+find_package(Torch REQUIRED)
+add_executable(example3 training_traced.cpp)
+target_link_libraries(example3 "${TORCH_LIBRARIES}")
+set_property(TARGET example3 PROPERTY CXX_STANDARD 17)
