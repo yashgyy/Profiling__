@@ -2,3 +2,4 @@ build/
 *.pt
 prompt*
 fedtemp/Digit-Recognition-MNIST-SVHN-PyTorch-CPP/data*
+pseudo_code.txt
